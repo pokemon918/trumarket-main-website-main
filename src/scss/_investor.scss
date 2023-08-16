@@ -1,0 +1,121 @@
+.invest-now {
+    background-color: #F7FBEE;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    padding: 100px;
+    margin-bottom: -15px;
+
+    .invest-image-container {
+        width: 50%;
+        position: relative;
+
+        .interested-heading {
+            top: 33%;
+            left: 12%;
+            position: absolute;
+            text-align: center;
+            color: #000 !important;
+            font-family: graphik-bold;
+            font-size: 2.5vw;
+        }
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            margin-top: 87px;
+        }
+    }
+
+    .invest-form-container {
+        width: 50%;
+        padding-left: 20px;
+
+        .invest-form-new {
+            padding: 50px;
+            background: #fff;
+            border: 1px solid #B1DA50;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            margin-top: -150px;
+            height: 703px;
+
+            ::placeholder {
+                /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #000;
+                font-size: 12px;
+                font-weight: bold !important;
+                opacity: 1;
+                /* Firefox */
+            }
+
+            .form-field {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 1px solid #E9EBF0;
+                outline: none;
+                border-radius: 5px;
+            }
+
+            .form-button {
+                width: 100%;
+                padding: 10px;
+                color: #000;
+                font-weight: bold;
+                border: none;
+                outline: none;
+                background: #B1DA50;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.parallax-container {
+    .react-parallax-content {
+        height: 100%;
+
+        p {
+            color: #a3a3a3 !important;
+            font-family: graphik-regular;
+
+        }
+
+        h2 {
+            font-family: graphik-bold;
+
+        }
+    }
+}
+
+.supplier-main {
+    background-image: url("../assets//images/supplierbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5rem 0;
+    margin: 1rem 0;
+
+    h1 {
+        font-family: graphik-semibold;
+        color: $white;
+        font-size: 2rem;
+    }
+
+    p {
+        color: $white;
+        font-family: graphik-regular;
+        width: 80%;
+    }
+
+    button {
+        background-color: $primary;
+        color: $white;
+        width: 350px;
+        padding: .5rem 0;
+        border-radius: 7px;
+        font-family: graphik-bold;
+        text-transform: uppercase;
+    }
+}

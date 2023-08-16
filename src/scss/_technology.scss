@@ -1,0 +1,426 @@
+.technology {
+    .howitworks-section {
+        background-color: #b1da50;
+        padding: 4rem 0;
+
+        h2 {
+            color: white;
+            font-family: graphik-semibold;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .card-img-top {
+            width: 90px;
+            // height: 100px;
+        }
+
+        p {
+            color: #858585;
+        }
+    }
+
+    .ourmission-section {
+        background-color: $black;
+        padding: 4rem 0;
+
+        .custom-h2 {
+            color: $primary;
+            font-family: graphik-semibold;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        h2 {
+            color: $primary;
+            font-family: graphik-semibold;
+        }
+
+        p {
+            color: #858585;
+        }
+
+    }
+
+    .network {
+        background-image: url("../assets/images/techBg2.png");
+        background-size: 35%;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        padding-bottom: 4rem;
+        width: 100%;
+        height: 100%;
+
+        h1 {
+            color: $primary;
+            font-family: graphik-semibold;
+            text-align: center;
+        }
+
+        h2 {
+            color: $primary;
+            font-family: graphik-semibold;
+        }
+
+        p {
+            color: #858585;
+        }
+
+    }
+
+    .trades-section {
+        position: relative;
+        padding-top: 6rem;
+
+        .bg-trades {
+            position: absolute;
+        }
+
+        h2 {
+            color: $primary;
+            font-family: graphik-semibold;
+        }
+
+        p {
+            color: #858585;
+        }
+    }
+
+    .image-section {
+        .dataInt {
+            width: 100%;
+        }
+    }
+
+    .values-section {
+        margin: 4rem 0;
+
+        .values {
+            margin: 4rem 0;
+
+            h2 {
+                font-family: graphik-semibold;
+                font-size: 2.5rem;
+                color: $primary;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .btn-main {
+                margin-top: 3rem;
+
+                .custom-btn {
+                    margin-right: 0 !important;
+                }
+            }
+        }
+
+        .solution-image-container {
+            .vso-img {
+                position: relative;
+                background-image: url("../assets/images/VSO.png");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                width: 550px;
+                height: 550px;
+
+                .tooltip>.tooltip-inner {
+                    background-color: $white !important;
+                }
+
+                .importer-img {
+                    cursor: help;
+                    width: 150px;
+                    position: absolute;
+                    right: 5%;
+                    top: 100px;
+                    transition: all .5s ease-out;
+
+                    &:hover {
+                        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.185));
+                        transition: all .5s ease-out;
+                    }
+                }
+
+                .producer-img {
+                    cursor: help;
+                    width: 150px;
+                    transition: all .5s ease-out;
+                    position: absolute;
+                    left: 5%;
+                    top: 100px;
+
+                    &:hover {
+                        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.185));
+                        transition: all .5s ease-out;
+                    }
+                }
+
+                .consumer-img {
+                    cursor: help;
+                    width: 150px;
+                    position: absolute;
+                    bottom: 0%;
+                    left: 50%;
+                    transition: all .5s ease-out;
+                    transform: translateX(-50%);
+
+                    &:hover {
+                        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.185));
+                        transition: all .5s ease-out;
+                    }
+                }
+
+                .investor-img {
+                    width: 200px;
+                    position: absolute;
+                    top: 50%;
+                    left: 45%;
+                    transform: translate(-50%, -50%)
+                }
+            }
+        }
+
+        .foodchain-technology-container {
+            width: 100%;
+
+            .heading-section {
+                width: 50%;
+
+                .foodchain-technology-text {
+                    text-align: left !important;
+                    color: #b1da50 !important;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $dark-grey;
+                    text-align: left;
+                }
+            }
+
+            .foodchain-image-container {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .foodchain {
+            img {
+                width: 100%;
+            }
+
+            .food-trade-img {
+                width: 100px;
+                margin-bottom: 1rem;
+            }
+
+            h2 {
+                font-family: graphik-semibold;
+                font-size: 2.5rem;
+                color: $primary;
+                text-transform: none !important;
+                text-align: center;
+            }
+
+            h5 {
+                font-family: graphik-bold;
+            }
+
+            p {
+                text-align: center;
+                color: #666666;
+            }
+        }
+    }
+
+    .how-it-works-container {
+        width: 100%;
+        display: flex;
+        padding: 0px 100px;
+
+        .heading-section {
+            width: 50%;
+            padding-top: 260px;
+
+            .how-it-works-text {
+                text-align: left;
+                color: #b1da50 !important;
+                font-family: graphik-bold;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $dark-grey;
+                text-align: left;
+            }
+        }
+
+        .how-it-works-image-container {
+            width: 40%;
+            position: relative;
+
+            .hiw_text {
+                position: absolute;
+                top: 45%;
+                left: 20%;
+                width: 60%;
+                text-align: center;
+                font-family: graphik-semibold;
+                color: #000;
+            }
+
+            .hiw_1 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                top: -2%;
+                left: 25%;
+                padding-top: 10px;
+                
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_2 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                top: 6%;
+                right: 10%;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_3 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                top: 40%;
+                right: -8%;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_4 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                bottom: 8%;
+                right: 5%;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_5 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                bottom: -7%;
+                left: 35%;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_6 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                top: 60%;
+                left: -5%;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            .hiw_7 {
+                width: 19%;
+                height: 18%;
+                border-radius: 50%;
+                font-size: 12px;
+                position: absolute;
+                text-align: center;
+                cursor: pointer;
+                font-weight: bold;
+                top: 25%;
+                left: -30px;
+                padding-top: 10px;
+
+                img {
+                    width: 40%;
+                    object-fit: contain;
+                    margin-top: 19%;
+                }
+            }
+
+            img {
+                width: 100%;
+                object-fit: contain;
+                margin-top: 20px;
+            }
+        }
+    }
+}

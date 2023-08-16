@@ -1,0 +1,106 @@
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-bottom:100px;
+}
+.section-title {
+  margin-bottom: 60px;
+    p {
+        color: #777;
+        font-size: 16px;
+    }
+    h4 {
+        text-transform: capitalize;
+        font-size: 40px;
+        position: relative;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 60px;
+            height: 2px;
+            background-color: $primary;
+            bottom: 0;
+            left: 50%;
+            margin-left: -30px;
+        }
+        &::after {
+            position: absolute;
+            background-color: $primary;
+            content: "";
+            width: 10px;
+            height: 10px;
+            bottom: -4px;
+            left: 50%;
+            margin-left: -5px;
+            border-radius: 50%;
+        }
+    }
+}
+ul.timeline-list {
+	position: relative;
+	margin: 0;
+	padding: 0;
+    &::before{
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 100%;
+        background-color: #e3e3e3;
+        left: 50%;
+        top: 0;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+    li {
+        position: relative;
+        clear: both;
+        display: flex;
+        .timeline_content {
+            width: 47%;
+            color: black;
+            // padding: 0 30px;
+            margin: 40px 0;
+            float: left;
+            text-align: right;
+        }
+        &:nth-child(2n + 1) .timeline_content {
+            float: right;
+            text-align: left;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-color: $primary;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
+    }
+}
+.timeline_content {
+	background-color:#fff;
+    h4 {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    span {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: graphik-semibold;;
+        // color: $primary;
+    }
+    p{
+        color: black !important;
+        font-family: graphik-regular;
+    }
+    
+}

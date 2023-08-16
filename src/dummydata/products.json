@@ -1,0 +1,103 @@
+
+{
+    "data": [
+        {
+            "_id": "C10",
+            "name": "Air Filter",
+            "modelNumber":"LJ462Q-1-1012919DB",
+            "img": "../assets/category/c1.png",
+            "quantity":0
+        },
+        {
+            "_id": "C19",
+            "name": "Oil Filter",
+            "modelNumber":"K0902",
+            "img": "../assets/category/c2.png",
+            "quantity":0
+        },
+        {
+            "_id": "C717",
+            "name": "Fuel Filter",
+            "modelNumber":"K0902",
+            "img": "../assets/category/c3.png",
+            "quantity":0
+        },
+        {
+            "_id": "C314",
+            "name": "7D Premium Petrol Engine Oil-4 Ltr",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c4.png",
+            "quantity":0
+        },
+        {
+            "_id": "CX17",
+            "name": "Pad Kit Front",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c5.png",
+            "quantity":0
+        },
+        {
+            "_id": "C101",
+            "name": "Ignition Switch  Assembly ",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c1.png",
+            "quantity":0
+        },
+        {
+            "_id": "C191",
+            "name": "Start Relay",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c2.png",
+            "quantity":0
+        },
+        {
+            "_id": "C7171",
+            "name": "12V Small Relay",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c3.png",
+            "quantity":0
+        },
+        {
+            "_id": "C3141",
+            "name": "Back View Mirror LH",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c4.png",
+            "quantity":0
+        },
+        {
+            "_id": "CX171",
+            "name": "Back View Mirror RH",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c5.png",
+            "quantity":0
+        },
+        {
+            "_id": "C101",
+            "name": "Head Lamp Left",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c1.png",
+            "quantity":0
+        },
+        {
+            "_id": "C191",
+            "name": "Head Lamp Right",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c2.png",
+            "quantity":0
+        },
+        {
+            "_id": "C7171",
+            "name": "Tail Lamp Assy RH",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c3.png",
+            "quantity":0
+        },
+        {
+            "_id": "C3141",
+            "name": "Tail Lamp Assy LH",
+            "modelNumber":"1101037200010",
+            "img": "../assets/category/c4.png",
+            "quantity":0
+        }
+    ]
+}

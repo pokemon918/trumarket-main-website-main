@@ -1,0 +1,164 @@
+.contactus {
+    .left-top-img {
+        height: 1100px !important;
+    }
+
+    .info-details {
+        padding-left: 26rem;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        h3 {
+            font-family: graphik-semibold;
+            color: $primary;
+            font-size: 1.8rem;
+
+            i {
+                color: #e0e0e0;
+                font-size: 1.5rem;
+                margin-right: 10px;
+            }
+        }
+
+        .socail-icons {
+            i {
+                color: $primary;
+                font-size: 1.5rem;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .contactus-form {
+        background-image: url(../assets/images/contactus.png);
+        background-position: 70% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        form {
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+
+            input {
+                margin: 20px 0;
+                padding-left: 20px;
+                border: 1px solid $primary;
+                border-radius: 10px;
+                width: 100%;
+                height: 70px;
+                font-size: 18px;
+            }
+
+            textarea {
+                margin: 20px 0;
+                padding-left: 20px;
+                border-radius: 10px;
+                border: 1px solid $primary;
+                width: 100%;
+                font-size: 18px;
+                height: auto !important;
+            }
+
+            select {
+                margin: 20px 0;
+                padding-left: 15px;
+                border-radius: 10px;
+                border: 1px solid $primary;
+                width: 100%;
+                font-size: 18px;
+                height: 70px;
+                color: #757575;
+
+            }
+        }
+
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 400px;
+            width: 1080px;
+
+            iframe {
+                // border-radius: 20px;
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+.contact-us-container {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 5px;
+
+    .form-section {
+        width: 50%;
+        padding: 100px 0px;
+        padding-left: 200px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .contact-us-text {
+            text-align: left;
+            color: #b1da50 !important;
+            font-family: graphik-bold;
+        }
+
+        p {
+            font-size: 1rem;
+            color: $dark-grey;
+            text-align: left;
+            width: 400px;
+        }
+
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #000;
+            font-size: 12px;
+            font-weight: bold !important;
+            opacity: 1;
+            /* Firefox */
+        }
+
+        .form-field {
+            width: 90%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #E9EBF0;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        .form-button {
+            width: 90%;
+            padding: 10px;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            background: #B1DA50;
+            border-radius: 5px;
+        }
+    }
+
+    .map-container {
+        width: 50%;
+        opacity: 0.5;
+    }
+}
